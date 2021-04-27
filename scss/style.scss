@@ -54,6 +54,35 @@ h1{
     margin: 20% auto 0;
     font-size: 2em;
     border-bottom: 1px solid red;
-    width: 60%;
-    
+}
+section{
+    padding: 5em 10em;
+    text-align: center;
+    @include clearfix;
+    h2{
+        text-transform: uppercase;
+        margin-bottom: 3em;
+    }
+}
+.catalog{
+    background-color: $grey_background;
+    .kolona{
+        float: left;
+        width: 25%;
+        img{
+            width: 90%;
+        }
+    }
+}
+.buttons{
+    background-color: $main_red;
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+        background-color: black;
+    }
 }
