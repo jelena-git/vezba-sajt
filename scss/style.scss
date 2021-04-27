@@ -86,3 +86,31 @@ section{
         background-color: black;
     }
 }
+table{
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    td, th{
+        padding: 1em;
+    }
+    thead{
+        tr{ background-color: $main_red;}
+        th{
+            color:#fff;
+            &:first-child{ background-color: $red_dark;}
+        }
+       
+    }
+    tbody{
+        tr{
+            border-bottom: 1px solid $main_text_color;
+        }
+        td:first-child{
+            background-color: $grey_background;
+        }
+    }
+}
+#pricingButton{
+    display: none;
+}
