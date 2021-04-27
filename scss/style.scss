@@ -114,3 +114,21 @@ table{
 #pricingButton{
     display: none;
 }
+footer{
+    padding: 5em 10em;
+    background-color: black;
+    @include clearfix;
+    .logo{
+        float:none;
+        font-size: 1.5em;
+        border-bottom: 1px solid $main_red;
+    }
+    address {
+        float: left;
+        margin: 1em;
+    }
+    .map{
+        float: right;
+        margin: 1em;
+    }
+}
